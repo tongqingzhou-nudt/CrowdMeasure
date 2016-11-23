@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_para">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/AP_prefix_tv"
+            android:textStyle="bold"
+            android:text="AP prefix: "
+            android:layout_weight="1" />
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/AP_prefix_et"
+            android:minWidth="100dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/measuring_cycles_tv"
+            android:textStyle="bold"
+            android:text="Measuring Cycles: "
+            android:layout_weight="1" />
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/measuring_cycles_et"
+            android:minWidth="100dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

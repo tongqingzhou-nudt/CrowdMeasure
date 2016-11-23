@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Crowd Measure</string>
+    <string name="Load_picture">Load the Floor Plan</string>
+    <string name="Performing_Measure_for_Current_Tag">Measure</string>
+</resources>
