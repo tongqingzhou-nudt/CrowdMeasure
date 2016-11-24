@@ -21,11 +21,13 @@ Android with:
 ## Installation
 ----------
 
-1. Get the android apk: 
+1. Get the android apk:
 
-    git clone git@https://github.com/ztqsurfing/CrowdMeasure.git
-    cd CrowdMeasure/app/
-    
+```
+git clone git@https://github.com/ztqsurfing/CrowdMeasure.git
+cd CrowdMeasure/app/
+``` 
+
 2. Copy app-release.apk to your phone and install it.
 
 
